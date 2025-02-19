@@ -6,7 +6,7 @@ import Profile from "./components/Profile";
 function App() {
   return (
     <UserContextProvider>
-      <h1>Context Api</h1>
+      <h1 className="text-6xl text-blue-600">Context Api</h1>
       <Login />
       <Profile />
     </UserContextProvider>
